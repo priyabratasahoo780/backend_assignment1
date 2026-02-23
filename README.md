@@ -9,6 +9,7 @@ The API supports read-only operations (GET requests) and follows REST principles
 
 No external database is used — all data is stored in a local JSON array inside the project.
 
+
 🎯 Objective
 
 Build a REST API using Express.js
@@ -33,6 +34,7 @@ Express.js
 CORS
 
 JavaScript (ES6)
+
 
 📂 Implemented Routes
 
@@ -79,6 +81,7 @@ https://your-render-link.onrender.com/students/1
 https://your-render-link.onrender.com/students/branch/CSE
 
 
+
 💻 Steps to Run Locally
 
 1️⃣ Clone the repository
@@ -97,11 +100,13 @@ Server will run at:
 http://localhost:3000
 
 
+
 🚀 Deployment
 This project is deployed on Render.
 
 Deployed Link
 https://your-render-link.onrender.com
+
 
 
 📁 Project Structure
@@ -119,6 +124,7 @@ backend_assignment1/
 | ------------- | ----------------------- |
 | 200 OK        | Request successful      |
 | 404 Not Found | Resource does not exist |
+
 
 
 🧠 Key Concepts Implemented
