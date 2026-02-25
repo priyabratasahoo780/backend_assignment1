@@ -102,10 +102,9 @@ app.get("/students/topper", (req, res) => {
     return res.status(404).json({ message: "No students found" });
   }
 
-  const topper = students.reduce((max, student) =>
-    student.cgpa > max.cgpa ? student : max
-  );
-
+const topper = students.reduce((max,student) =>
+  student.cgpa > max.cgpa ? student : max
+);
   res.status(200).json(topper);
 });
 

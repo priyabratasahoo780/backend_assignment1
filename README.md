@@ -73,12 +73,12 @@ Returns empty array if no students match.
 
 🌍 Sample API URLs (After Deployment)
 
-https://your-render-link.onrender.com/students
-https://your-render-link.onrender.com/students/topper
-https://your-render-link.onrender.com/students/average
-https://your-render-link.onrender.com/students/count
-https://your-render-link.onrender.com/students/1
-https://your-render-link.onrender.com/students/branch/CSE
+https://backend-assignment1.onrender.com/students
+https://backend-assignment1.onrender.com/students/topper
+https://backend-assignment1.onrender.com/students/average
+https://backend-assignment1.onrender.com/students/count
+https://backend-assignment1.onrender.com/students/1
+https://backend-assignment1.onrender.com/students/branch/CSE
 
 
 
@@ -106,6 +106,7 @@ This project is deployed on Render.
 
 Deployed Link
 https://backend-assignment1.onrender.com
+
 
 
 📁 Project Structure
