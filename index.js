@@ -83,8 +83,6 @@ const students = [
   }
 ];
   
-
-
 //    1️ GET /students
 //    Return all students
 
@@ -93,7 +91,11 @@ app.get("/students", (req, res) => {
 });
 
 
-
+app.get("/students/topper", (req,res) =>{
+ if(students.cgpa > higher.cgpa){
+  
+ }
+})
 //    2️ GET /students/topper
 //    Return student with highest CGPA
 
